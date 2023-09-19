@@ -5,7 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/clojurescript "1.11.60"]
-                 [aerial.hanami "0.18.0"]]
+                 [aerial.hanami "0.18.0"]
+                 [com.taoensso/carmine "3.2.0"]]
   :plugins [[lein-figwheel "0.5.18"]
             [lein-cljsbuild "1.1.8" :exclusions [[org.clojure/clojure]]]]
   :cljsbuild {:builds

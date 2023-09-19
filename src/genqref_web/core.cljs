@@ -1,7 +1,8 @@
 (ns genqref-web.core
   (:require [clojure.string :as cljstr]
             [aerial.hanami.core :as hmi]
-            [aerial.hanami.common :as hc]))
+            [aerial.hanami.common :as hc]
+            [aerial.hanami.templates :as ht]))
 
 (when-let [elem (js/document.querySelector "#app")]
   (hc/update-defaults
